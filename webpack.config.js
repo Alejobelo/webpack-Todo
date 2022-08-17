@@ -42,9 +42,10 @@ module.exports = {
         new HtmlWebPackPlugin({
             title: "Mi Webpack",
             // filename: 'index.html'
-            template: './src/index.html'//pagina HTML que dara lugar a la creacion del index.html de la carpeta de despliegue (dist) html de BASE 
+            template: './src/index.html'//pagina HTML que dara lugar a la creacion del index.html(de desarrollo) de la carpeta de despliegue (dist) html de BASE si no hace 
+            //el html.index estara vacio en la carpeta de desplicegue
 
-        }), //configuracion del httml que se creara automaticamente para 
+        }), //configuracion del html que se creara automaticamente para 
             //el despliegue de la pagina
         
         new MiniCssExtractPlugin({
