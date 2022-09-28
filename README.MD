@@ -1,17 +1,6 @@
 # Webpack Starter
 
-este es el proyecto inicial para crear aplicaciones utilizando Webpack
+Todo es una aplicacion web que sirve para listar y organizar las tareas pendientes por hacer. Esta lista se guradara en el localStorage y
+podras marcar las tareas que ya completaste, ademas, podras eliminar y filtrar las tareas pendientes y completadas. 
 
-### Notas:
 
-recordar construir los modulos de Node
-
-```
-npms install
-```
-
-y para construir el build o carpeta dist
-
-```
-npm run build
-```
